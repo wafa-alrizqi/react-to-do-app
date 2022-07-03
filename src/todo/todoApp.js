@@ -22,9 +22,9 @@ export default class todoApp extends Component {
 
   render(){
   return (
-  <div>
-    <h3>Todo List App</h3>
-    <input type="text" placeholder="Enter Task" onChange={this.TodoItem} value={this.state.item}/>
+  <div className='home'>
+    <h3>#My-Todo-List </h3>
+    <input type="text" placeholder="Enter Task .." onChange={this.TodoItem} value={this.state.item}/>
     <button onClick={this.addTodo}>Add</button>
     <TodoList items={this.state.todoItems} />
   </div>

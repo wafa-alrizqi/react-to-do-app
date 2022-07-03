@@ -1,10 +1,10 @@
-import './App.css';
+import React, { Component } from 'react'
+import TodoApp from './todo/todoApp'
 
-function App() {
-  return (
-    <>
-    </>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <TodoApp />
+    )
+  }
 }
-
-export default App;
